@@ -114,7 +114,6 @@ Our solution delivers measurable business benefits:
 
 This project underscores the transformative power of predictive analytics in operational efficiency. Leveraging advanced modeling and actionable business recommendations enabled Swire Coca-Cola to transition from reactive to proactive maintenance, significantly enhancing productivity and profitability.
 
-**Our vision: A future where Swire Coca-Cola experiences minimal downtime, maximized efficiency, and unparalleled customer satisfaction.**
 ---
 ## Group Member Contributions
 
