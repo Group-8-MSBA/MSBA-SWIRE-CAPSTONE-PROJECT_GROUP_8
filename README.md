@@ -21,7 +21,7 @@ Our solution follows the **CRISP-DM framework** and combines advanced predictive
 2. **Feature Engineering:**
    - Developed critical features such as **median survival days** for equipment, downtime trends, and failure patterns.
    - Focused on granular insights, including breakdown analysis by equipment type, plant location, and maintenance type.
-   - 1. **Granular Insights:**
+   - **Granular Insights:**
    - Extracted key features, including equipment ID, breakdown count, and functional area, to identify high-risk equipment prone to frequent failures.
    - **MTBF (Mean Time Between Failures):**
    - Calculated MTBF to quantify the reliability of equipment by measuring the average time between breakdowns. 
