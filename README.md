@@ -21,30 +21,36 @@ Our solution follows the **CRISP-DM framework** and combines advanced predictive
 2. **Feature Engineering:**
    - Developed critical features such as **median survival days** for equipment, downtime trends, and failure patterns.
    - Focused on granular insights, including breakdown analysis by equipment type, plant location, and maintenance type.
+   
    **Granular Insights:**
    - Extracted key features, including equipment ID, breakdown count, and functional area, to identify high-risk equipment prone to frequent failures.
-    **MTBF (Mean Time Between Failures):**
+
+     **MTBF (Mean Time Between Failures):**
    - Calculated MTBF to quantify equipment reliability by measuring the average time between breakdowns. 
    - For instance, equipment with ID `300115000` (L1 Filler Rotary Can 72 Valve) had a **MTBF of 0.476 days**, indicating highly frequent breakdowns. This equipment requires prioritized maintenance to minimize disruptions.
+   
    **Breakdown Trend Analysis:**
    - Identified seasonal peaks in breakdown frequency and equipment-specific trends to enhance maintenance scheduling.
-   **Functional Area Mapping:**
+
+    **Functional Area Mapping:**
    - Mapped failures to granular functional areas, such as conveyors and fillers, to pinpoint bottlenecks and allocate resources efficiently.
-   **Median Survival Days:**
+
+    **Median Survival Days:**
    - Survival analysis was used to compute the median operational lifespan for equipment and predict potential failures.
-   **Downtime Quantification:**
+
+    **Downtime Quantification:**
    - Quantified the financial impact of downtimes by analyzing actual work minutes lost and categorizing planned versus unplanned maintenance events.
 
-3. **Predictive Modeling:**
+4. **Predictive Modeling:**
    - Implemented **Kaplan-Meier survival analysis** and **Cox proportional hazards modeling** to estimate time-to-failure for high-risk equipment.
    - Applied **ARIMA time-series forecasting** to predict maintenance needs based on seasonal and historical trends.
 
-4. **Business Recommendations:**
+5. **Business Recommendations:**
    - Transitioned from reactive to **proactive maintenance** strategies.
    - Optimized **inventory planning** to ensure the availability of critical spare parts.
    - Prioritized **seasonal maintenance** activities to address peak breakdown periods.
 
-5. **Strategic Results:**
+6. **Strategic Results:**
    - Identified actionable insights to reduce unplanned breakdowns by 70%.
    - Proposed a downtime reduction goal of 5.6%, potentially saving Swire Coca-Cola approximately **10.7 million cases annually**, translating to substantial cost savings.
 
