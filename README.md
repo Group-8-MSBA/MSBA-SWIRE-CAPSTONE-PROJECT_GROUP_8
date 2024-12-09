@@ -25,7 +25,7 @@ Our solution follows the **CRISP-DM framework** and combines advanced predictive
    **Granular Insights:**
    - Extracted key features, including equipment ID, breakdown count, and functional area, to identify high-risk equipment prone to frequent failures.
 
-     **MTBF (Mean Time Between Failures):**
+   **MTBF (Mean Time Between Failures):**
    - Calculated MTBF to quantify equipment reliability by measuring the average time between breakdowns. 
    - For instance, equipment with ID `300115000` (L1 Filler Rotary Can 72 Valve) had a **MTBF of 0.476 days**, indicating highly frequent breakdowns. This equipment requires prioritized maintenance to minimize disruptions.
    
@@ -42,13 +42,13 @@ Our solution follows the **CRISP-DM framework** and combines advanced predictive
    - Quantified the financial impact of downtimes by analyzing actual work minutes lost and categorizing planned versus unplanned maintenance events.
 
 4. **Predictive Modeling:**
-   - Implemented **Kaplan-Meier survival analysis** and **Cox proportional hazards modeling** to estimate time-to-failure for high-risk equipment.
-   - Applied **ARIMA time-series forecasting** to predict maintenance needs based on seasonal and historical trends.
+   - Implemented Kaplan-Meier survival analysis and Cox proportional hazards modeling to estimate time-to-failure for high-risk equipment.
+   - Applied ARIMA time-series forecasting to predict maintenance needs based on seasonal and historical trends.
 
 5. **Business Recommendations:**
-   - Transitioned from reactive to **proactive maintenance** strategies.
-   - Optimized **inventory planning** to ensure the availability of critical spare parts.
-   - Prioritized **seasonal maintenance** activities to address peak breakdown periods.
+   - A transition from reactive to proactive maintenance strategies would be better.
+   - Optimized inventory planning to ensure the availability of critical spare parts.
+   - Prioritized seasonal maintenance activities to address peak breakdown periods.
 
 6. **Strategic Results:**
    - Identified actionable insights to reduce unplanned breakdowns by 70%.
@@ -62,7 +62,7 @@ Our solution delivers measurable business benefits:
 
 1. **Operational Excellence:**
    - Reducing unplanned downtimes boosts production uptime and minimizes operational disruptions.
-   - Plows can schedule maintenance efficiently by predicting breakdowns, ensuring steady production flow.
+   - Production plants can schedule maintenance efficiently by predicting breakdowns, ensuring steady production flow.
 
 2. **Cost Efficiency:**
    - A 70% reduction in unplanned maintenance can save millions annually, reducing waste and optimizing resources.
