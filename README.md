@@ -21,6 +21,19 @@ Our solution follows the **CRISP-DM framework** and combines advanced predictive
 2. **Feature Engineering:**
    - Developed critical features such as **median survival days** for equipment, downtime trends, and failure patterns.
    - Focused on granular insights, including breakdown analysis by equipment type, plant location, and maintenance type.
+   - 1. **Granular Insights:**
+   - Extracted key features, including equipment ID, breakdown count, and functional area, to identify high-risk equipment prone to frequent failures.
+   - **MTBF (Mean Time Between Failures):**
+   - Calculated MTBF to quantify the reliability of equipment by measuring the average time between breakdowns. 
+   - For instance, equipment with ID `300115000` (L1 Filler Rotary Can 72 Valve) had a **MTBF of 0.476 days**, indicating highly frequent breakdowns. This equipment requires prioritized maintenance to minimize        disruptions.
+   - **Breakdown Trend Analysis:**
+   - Identified seasonal peaks in breakdown frequency and equipment-specific trends to enhance maintenance scheduling.
+   - **Functional Area Mapping:**
+   - Mapped failures to granular functional areas, such as conveyors and fillers, to pinpoint bottlenecks and allocate resources efficiently.
+   - **Median Survival Days:**
+   - Used survival analysis to compute the median operational lifespan for equipment and predict potential failures.
+   - **Downtime Quantification:**
+   - Quantified the financial impact of downtimes by analyzing actual work minutes lost and categorizing planned versus unplanned maintenance events.
 
 3. **Predictive Modeling:**
    - Implemented **Kaplan-Meier survival analysis** and **Cox proportional hazards modeling** to estimate time-to-failure for high-risk equipment.
